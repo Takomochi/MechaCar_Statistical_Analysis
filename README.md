@@ -1,4 +1,11 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+
+## Overview of the project
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs' newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. AutosRUs' upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+## Resources
+- Data: Suspension_Coil.csv, MechaCar_mpg.csv
+- Software: R studio, R
 
 ## Linear Regression to Predict MPG
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?** <br>
@@ -40,10 +47,19 @@ The design specification requirement for all the manufacturing lots and each lot
 
 
 ## Study Design: MechaCar vs Competition
-1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Design a statistical study to compare vehicle performance of the MechaCar vehicles against a competitor's car.
 
-- What metric or metrics are you going to test?
+- Metrics
+    - Horse Power
+    - mpg
+
 - What is the null hypothesis or alternative hypothesis?
+1. Null hypothesis:There is no meaningful difference between Horse power and mpg.
+2. Alternative hypothesis: There is meaningful difference between Horse power and mpg.
+
 - What statistical test would you use to test the hypothesis? And why?
+Using two-sample t-test because we are comparing two samples.
+
 - What data is needed to run the statistical test?
+Horse power and mpg data from MechaCar and the competitor.
 
