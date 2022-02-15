@@ -5,7 +5,7 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
 ## Resources
 - Data: Suspension_Coil.csv, MechaCar_mpg.csv
-- Software: R studio, R
+- Software: R, R studio
 
 ## Linear Regression to Predict MPG
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?** <br>
